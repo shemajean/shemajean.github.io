@@ -3,3 +3,11 @@
 }
 .brand-logo{
 }
+
+.social{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
