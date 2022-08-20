@@ -51,7 +51,7 @@ h5.about_title{
 
 .about_section{
 	width: 100%;
-	height: 40vh;
+	padding: 10vh 0 10vh 0;
 	overflow: hidden;
 }
 img.about_image{
