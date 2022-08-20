@@ -13,7 +13,7 @@
     <title>Shema Jean</title>
 </head>
 <body>
-    <nav class=" grey darken-1">
+    <nav class=" green darken-1">
         <div class="container nav-wrapper">
           <a href="#" class="brand-logo">SHEMA</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -43,15 +43,14 @@
             <a href="https://twitter.com/shemajean5" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         </li>
     </ul>
-     <p class="card-panel teal lighten-2">Hello World 😊</p>
-    <div class="card-panel"><span class="blue-text text-darken-2">The website is under construction..</span ></div>
-        <div class="progress"><div class="indeterminate"></div></div>
-    <div class="col l12 hero">
-        <img src="https://images.unsplash.com/photo-1586256053828-a36b572ab01d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3862&q=80" alt="">
+    <div class="progress"><div class="indeterminate"></div></div>
+
+    <div class="row">
+      <div class="col l12 hero">
+          <img class="hero_image" src="https://images.unsplash.com/photo-1586256053828-a36b572ab01d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3862&q=80" alt="">
+      </div>
     </div>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    
       <div class="container">
       <div class="section">
         <!--   Icon Section   -->
@@ -59,9 +58,9 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center light-blue-text">
-                <i class="material-icons">flash_on</i>
+                <i class="material-icons service_icon">flash_on</i>
               </h2>
-              <h5 class="center">Installations électriques</h5>
+              <h5 class="center tfb">Installations électriques</h5>
 
               <p class="center">
                 Vous avez un problème avec votre tableau électrique ou
@@ -78,9 +77,9 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center light-blue-text">
-                <i class="material-icons">class</i>
+                <i class="material-icons service_icon">class</i>
               </h2>
-              <h5 class="center">Dessin technique</h5>
+              <h5 class="center tfb">Dessin technique</h5>
 
               <p class="center">
                 Les plans électriques / électromécaniques sont très importants
@@ -98,9 +97,9 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center light-blue-text">
-                <i class="material-icons">devices</i>
+                <i class="material-icons service_icon">devices</i>
               </h2>
-              <h5 class="center">Informatique</h5>
+              <h5 class="center tfb">Informatique</h5>
 
               <p class="center">
                 Avez-vous un soucis informatique, améliorer vos services
@@ -114,15 +113,12 @@
           </div>
         </div>
       </div>
-      <br /><br />
     </div>
-
-    <footer class="page-footer green">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">About</h5>
-            <p class="grey-text text-lighten-4">
+    <div class="row no_margin_bottom grey lighten-3">
+      <div class="container about_section fva">
+        <div class="col l6 s12 ">
+            <h5 class="black-text about_title">About</h5>
+            <p class="black-text about_text ">
               Je suis actuellement électromécanicien de maintenance chez
               Logi-technic. Avant de commence ma carrière à Logi-technic, j’ai
               suivi plusieurs études & formations qui m’ont permis d’acquérir
@@ -135,11 +131,19 @@
               d’autres informations supplémentaires concernant mes études vous
               pouvez consulter ma page LinkedIn.
             </p>
-          </div>
-          <div class="col l3 s12"></div>
-          <div class="col l3 s12">
-            <h5 class="right-align">Contact</h5>
-            <ul>
+        </div>
+        <div class="col l6 s12">
+          <img class="about_image" src="https://images.unsplash.com/photo-1581090466619-e945d2e2980e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80">
+        </div>
+      </div>
+    </div>
+ 
+    <footer class="page-footer green">
+      <div class="container">
+        <div class="row">
+          <div class="col l3 s12 offset-l9">
+            <h5 class="right-align footer_title">Contact</h5>
+            <ul class="footer_ul">
               <li class="right-align">
                 <a class="white-text" href="#!">shemajean@icloud.com</a>
               </li>
@@ -147,34 +151,24 @@
                 <a class="white-text" href="#!">+32468380035</a>
               </li>
             </ul>
-            <ul>
-              <li class="social">
-                <a
-                  href="https://www.linkedin.com/in/jean-shema-aa0272105/"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin-in"></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/shema_jean_de_la_croix"
-                  target="_blank"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-                <a href="https://twitter.com/shemajean5" target="_blank"
-                  ><i class="fa-brands fa-twitter"></i
-                ></a>
+            <ul class="footer_ul">
+              <li class="social"><a href="https://www.linkedin.com/in/jean-shema-aa0272105/" target="_blank"><i class="fa-brands footer_icon icon_white fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/shema_jean_de_la_croix" target="_blank" ><i class="fa-brands footer_icon icon_white fa-instagram"></i></a>
+                <a href="https://twitter.com/shemajean5" target="_blank"><i class="fa-brands footer_icon icon_white fa-twitter"></i></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
+      <div class="footer-copyright center">
         <div class="container">
-          Site conçu par
-          <a class="orange-text text-lighten-3"
-            >SHEMA Jean et Alain Prestige</a
-          >
+          <span>Site conçu par</span> <a class="orange-text text-lighten-3">SHEMA Jean et Alain Prestige</a>
         </div>
       </div>
     </footer>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
