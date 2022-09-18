@@ -50,6 +50,7 @@ h5.about_title{
 }
 
 .about_section{
+	font-family: "Courier New";
 	width: 100%;
 	padding: 10vh 0 10vh 0;
 	overflow: hidden;
