@@ -9,9 +9,14 @@
   width: 100%;
 }
 
+nav{
+  top: 2vh;
+}
+
 .brand-logo {
   align-self: flex-start;
   border-radius: 12px;
+  top: -1vh;
 }
 
 .social {
