@@ -9,14 +9,16 @@
   width: 100%;
 }
 
-nav{
-  top: 2vh;
+nav {
+  top: 3vh;
+  height: 22mm;
 }
 
 .brand-logo {
   align-self: flex-start;
   border-radius: 12px;
-  top: -1vh;
+  top: -2vh;
+  left: 20px;
 }
 
 .social {
@@ -81,7 +83,7 @@ img.about_image {
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 body {
   background-color: #2a2a2a;
-  margin: 0;
+  margin: auto;
 }
 .container {
   color: #fff;
@@ -90,7 +92,7 @@ body {
 /* linear loading */
 .bar-container {
   position: relative;
-  height: 20px;
+  height: 45px;
   width: 100%;
   background-color: #bdbdbd;
 }
