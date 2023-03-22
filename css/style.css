@@ -224,3 +224,7 @@ ul.sidenav li > a {
 .sidenav li > a > i.material-icons {
   color: wheat !important;
 }
+
+#projects {
+  margin-top: 8vh;
+}
