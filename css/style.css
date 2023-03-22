@@ -29,11 +29,20 @@ nav {
 }
 
 .social {
+  margin-left: 2vw;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
+}
+.social > a {
+  padding: 0 1vw 0 1vw;
+}
+.social-side-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h5.footer_title {
@@ -199,4 +208,19 @@ a {
 
 #about {
   color: #1e4c40;
+}
+
+ul.sidenav {
+  color: white;
+}
+
+ul.sidenav li > a {
+  color: white;
+}
+
+.sidenav li > a > i,
+.sidenav li > a > [class^="mdi-"],
+.sidenav li > a li > a > [class*="mdi-"],
+.sidenav li > a > i.material-icons {
+  color: wheat !important;
 }
