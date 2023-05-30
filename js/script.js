@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-VANTA.BIRDS({
+VANTA.clouds({
   el: "#hero_3d",
   mouseControls: true,
   touchControls: true,
