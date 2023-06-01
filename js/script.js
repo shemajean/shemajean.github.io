@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-VANTA.clouds({
+VANTA.CLOUDS({
   el: "#hero_3d",
   mouseControls: true,
   touchControls: true,
