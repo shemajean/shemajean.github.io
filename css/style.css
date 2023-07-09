@@ -228,3 +228,28 @@ ul.sidenav li > a {
 #projects {
   margin-top: 8vh;
 }
+#clients {
+  background-color: #1e4c40;
+}
+.entreprise_title h5 {
+  padding-top: 2vh;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.entreprise_logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.entreprise_section {
+  overflow-x: hidden;
+}
+
+.entreprise_logo_img {
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
