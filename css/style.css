@@ -229,7 +229,7 @@ ul.sidenav li > a {
   margin-top: 8vh;
 }
 #clients {
-  background-color: #1e4c40;
+  background-image: url(../images/background.jpg);
 }
 .entreprise_title h5 {
   padding-top: 2vh;
@@ -249,7 +249,8 @@ ul.sidenav li > a {
 }
 
 .entreprise_logo_img {
-  width: 100px;
+  width: 82px;
   height: auto;
-  margin: 20px;
+  margin: 12px;
+  border-radius: 2px;
 }
