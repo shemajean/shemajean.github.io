@@ -225,7 +225,7 @@ ul.sidenav li > a {
   color: wheat !important;
 }
 
-projects {
+#projects {
   margin-top: 8vh;
 }
 #clients {
@@ -253,33 +253,4 @@ projects {
   height: auto;
   margin: 12px;
   border-radius: 2px;
-}
-.project-item {
-  margin-bottom: 2rem;
-  transition: all 0.3s ease;
-}
-
-.project-item:hover {
-  transform: translateY(-4px);
-}
-
-.project-img {
-  max-height: 280px;  /* ← Contrôle la taille : ajuste si besoin (ex: 250px pour plus petit) */
-  width: 100%;
-  object-fit: cover;  /* Évite les déformations */
-  border-radius: 8px;
-}
-
-.project-links {
-  margin-top: 1.2rem;
-}
-
-.project-links a {
-  margin-right: 1rem;
-  margin-bottom: 0.8rem;
-  display: inline-block;
-}
-
-@media screen and (max-width: 600px) {
-  .right-align { text-align: left !important; }  /* Reset alternance sur mobile */
 }
