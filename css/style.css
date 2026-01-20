@@ -225,7 +225,7 @@ ul.sidenav li > a {
   color: wheat !important;
 }
 
-#projects {
+projects {
   margin-top: 8vh;
 }
 #clients {
@@ -254,31 +254,32 @@ ul.sidenav li > a {
   margin: 12px;
   border-radius: 2px;
 }
-<div id="projects" class="container">
-  <h2 class="center-align teal-text text-lighten-2" style="margin: 4rem 0 3.5rem; font-weight:900;">
-    Projets marquants
-  </h2>
+.project-item {
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
 
-  <div class="row">
-    <!-- Chaque projet : col s12 m6 l6 au lieu de m4/l4 -->
-    <div class="col s12 m6 l6">
-      <div class="card teal darken-4 horizontal z-depth-4">  <!-- ← horizontal = image à gauche -->
-        <div class="card-image" style="width: 40%; flex-shrink:0;">
-          <img src="images/filtre.jpg" style="height:100%; object-fit:cover;">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content white-text">
-            <span class="card-title">Plan de maintenance – Filtration acide phosphorique</span>
-            <p>Réalisé en stage chez Prayon SA – Bachelier électromécanique</p>
-          </div>
-          <div class="card-action">
-            <a href="files/TFE_SHEMA_Jean.pdf">Document complet</a>
-            <a href="files/SHEMA_Jean_Synthese.pdf">Synthèse</a>
-          </div>
-        </div>
-      </div>
-    </div>
+.project-item:hover {
+  transform: translateY(-4px);
+}
 
-    <!-- Même chose pour les 2 autres projets -->
-  </div>
-</div>
+.project-img {
+  max-height: 280px;  /* ← Contrôle la taille : ajuste si besoin (ex: 250px pour plus petit) */
+  width: 100%;
+  object-fit: cover;  /* Évite les déformations */
+  border-radius: 8px;
+}
+
+.project-links {
+  margin-top: 1.2rem;
+}
+
+.project-links a {
+  margin-right: 1rem;
+  margin-bottom: 0.8rem;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .right-align { text-align: left !important; }  /* Reset alternance sur mobile */
+}
